@@ -1,0 +1,10 @@
+﻿<Application x:Class="Tic_tac.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Tic_tac"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <BitmapImage x:Key="MyImageSource" UriSource="C:\Users\79914\source\repos\Tic_tac\Tic_tac\Resoures\baptize-removebg-preview (1).png"  />
+    
+    </Application.Resources>
+</Application>

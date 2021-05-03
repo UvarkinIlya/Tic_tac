@@ -1,0 +1,18 @@
+﻿<Window x:Class="Tic_tac.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tic_tac"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowState="Maximized">
+
+
+    <Grid>
+        <Label Content="Ходит игрок:" HorizontalContentAlignment="Right" Height="38" Margin="104,55,389.6,0" VerticalAlignment="Top" Width="300" FontSize="20"/>
+        <Button x:Name="player" Content="Button" HorizontalAlignment="Center" Height="28" Margin="409,62,355.6,0" VerticalAlignment="Top" Width="29" RenderTransformOrigin="-0.841,0.471"/>
+        <Grid x:Name="MyBoard" MouseWheel="MyBoard_MouseWheel">
+
+        </Grid>
+    </Grid>
+</Window>
